@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <link rel="stylesheet" href="styles.css">
+    <title>RustyMemories</title>
+</head>
+
+<body>
+    <header>
+        <!--<img class="logo" src="images/logo.svg" alt="logo">-->
+        <div class="container">
+            <div id="branding">
+                <h1><span class="highlight">Rusty</span>Memories</h1>
+            </div>
+        </div>
+        <nav>
+            <ul class="nav__links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="servers.html">Servers</a></li>
+                <li><a href="store.html">Store</a></li>
+            </ul>
+        </nav>
+        <a class="cta" href="contact.html"><button class="c1">Contact</button></a>
+    </header>
+    <section id="showcase2">
+        <div class="container">
+
+        </div>
+    </section>
+    <section id="main">
+        <div class="con1">
+            <h1>RustyMemories is for people who love Rust</h1>
+        </div>
+        <div class="time">
+            <p>Date/Time: <span id="datetime"></span></p>
+
+            <script>
+                var dt = new Date();
+                document.getElementById("datetime").innerHTML = dt.toLocaleString();
+            </script>
+        </div>
+        <div class="con3">
+            <p>This site exists as a resource for people to stay up to date about the development of our servers.</p>
+            <p>This is our servers: </p>
+        </div>
+    </section>
+    <div class="title">
+        <h1>European Servers</h1>
+    </div>
+    <div class="about_server">
+        <div class="server">
+            <img src="images/Thumbnail.png" alt="">
+            <h3>RustyMemories X5</h3>
+            <h3>IP: </h3>
+            <p>RustyMemories x5 SOLO/DUO/TRIO Loot+/Shop/Kits/Skins BP+ Just BP Wipe</p>
+        </div>
+        <div class="server">
+            <img src="images/Thumbnailx10.png" alt="">
+            <h3>RustyMemories X10</h3>
+            <h3>COMING SOON</h3>
+            <p>RustyMemories x10 SOLO/DUO/TRIO/CLAN Loot++/Shop/Kits/Skins BP+ Just BP Wipe</p>
+        </div>
+        <div class="server">
+            <img src="images/Thumbnailx100.png" alt="">
+            <h3>RustyMemories X1000000000</h3>
+            <h3>COMING SOON</h3>
+            <p>RustyMemories x1000000000 SOLO/DUO/TRIO/CLAN Loot++/Shop/Kits/Skins BP+ Just BP Wipe</p>
+        </div>
+    </div>
+    <footer>&copy; RustyMemories 2020</footer>
+</body>

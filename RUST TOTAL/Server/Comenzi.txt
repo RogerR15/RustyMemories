@@ -1,0 +1,119 @@
+adminchat
+ oxide.grant <user or group> <name or steam id> <permission>
+oxide.revoke <user or group> <name or steam id> <permission>
+adminchat.use
+
+AdminChat.json
+oxide/config
+
+{
+  "Enabled Admin Chat": "You are now talking in admin chat.",
+  "Disabled Admin Chat": "You are no longer talking in admin chat."
+}
+distrugere-grade
+
+
+block.count <grade>
+block.remove <grade>
+block.countall
+block.removeall
+blockremover.count
+blockremover.remove
+
+
+
+Staffmode este un plugin care permite comutarea de la un grup (sau set) la un alt grup (set). Acest plugin este destinat grupurilor de personal, dar poate fi folosit pentru a comuta alte grupuri. Notă, comanda utilizată mai jos este comanda implicită. Dacă ați schimbat comanda în configurare, utilizați-o pe aceea în loc de "/ staffmode"
+
+/staffmode
+/staffmode group create [groupname]
+/staffmode group remove [groupname]
+/staffmode group edit [groupname]
+/checkgroups
+
+Administrarea hărții permite administratorilor să arate toți jucătorii de pe hartă.
+
+
+/adminmap
+{
+	"AdminMapEnabled": "<color=orange>[Admin Map]</color> Enabled",
+	"AdminMapDisabled": "<color=orange>[Admin Map]</color> Disabled",
+	"AdminMapReloading": "<color=orange>[Admin Map]</color> Reloading",
+	"AdminMapReloaded": "<color=orange>[Admin Map]</color> Reloaded",
+	"NoPermissions": "<color=orange>[Admin Map]</color> You don't have the permission to use this command!"
+
+
+
+
+
+Interzicere Ștergere Prin elimină toate entitățile de pe harta aparținând cuiva interzis. Folosește metoda de interdicție nativă în Rust, care este utilizată atunci când cineva este interzis EAC, deci nu ar trebui să existe prea puțin decalaj atunci când entitățile sunt eliminate
+
+
+
+
+/deleteby.removeall
+
+
+
+Informațiile despre jucător stochează IP-ul jucătorului, numele, poziția, timpul de joc etc.
+
+
+
+/lastips STEAMID/NAME  arată ultimele ips-uri utilizate de acest jucător
+/ipowners XX.XX.XX.XX  arată jucători care aveau același ip
+/lastnames STEAMID/NAME   arată numele pe care le-a avut acest utilizator
+/lastseen STEAMID/NAME   arată când jucătorul a fost văzut ultima dată
+/played STEAMID/NAME    arată cât timp a jucat un jucător pe server
+/firstconnection STEAMID/NAME arată când jucătorul a fost văzut pentru prima dată pe server
+/lastposition STEAMID/NAME  arată unde a fost văzut ultima oară jucătorul (nu funcționează pe jucători online)
+
+
+
+
+
+!!!!!!!!!!!!!!!!!permite admin să trimită un mesaj pe server ca server cu prefix personalizat și culoare.
+/say [message]  Difuzați un mesaj tuturor jucătorilor
+
+
+
+
+
+
+Pluginul Ștergeți programul le permite celor care ștergeți în mod regulat, să stocheze și să afișeze cu ușurință modelele de ștergere pentru utilizatori, împreună cu numărătoarea inversă pentru când se poate întâmpla următoarea ștergere.
+
+
+/nextwipe -Vizualizați ciclul de ștergere
+/setwipe map- Setați ora de ștergere a ultimei hărți la data curentă
+/setwipe map <MM/DD/YYYY>  -Setați ștergerea ultimei hărți la data specificată
+/setnextwipe map <MM/DD/YYYY> -Setați ștergerea următoarei hărți la data specificată (se impune ca „UseManualNextWipe” să fie setat pe true în configurație)
+
+
+
+
+
+
+Comenzi --- aici nu mai scriu ca ar trebui sa va dati seama !!!!!!!!!!!!!!
+
+ban "player name" "reason"
+banid <steam64>
+banlist
+banlistex
+kick <steam64 or playername> reason
+kickall -Afara toți utilizatorii
+listid <steam64>
+unban <steam64>
+
+
+
+
+
+
+
+
+
+
+
+                                                                        MOMENTAN ATAT O SA MAI ADAUG                            
+
+
+
+
